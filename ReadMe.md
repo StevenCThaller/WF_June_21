@@ -12,4 +12,4 @@ i.e. the code from the lecture on HTML inputs will be in the HTML folder, labele
     - Recording: [YouTube](https://www.youtube.com/watch?v=SpkOzz1NNa8&ab_channel=Dojo_Instructor_Cody)
 - Afternoon
     - Code: [Lecture Code](https://github.com/StevenCThaller/WF_June_21/blob/main/HTML/HTML_Intro/index.html)
-    - Recording: Processing
+    - Recording: [YouTube](https://www.youtube.com/watch?v=KxMlDPOO7_I&ab_channel=Dojo_Instructor_Cody)
