@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Intro</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#">
+        <div>
+            <label for="fName">First Name: *</label>
+            <input type="text" name="fName" id="fName">
+        </div>
+        <div>
+            <label for="lName">Last Name: *</label>
+            <input type="text" name="lName" id="lName">
+        </div>
+        <p>Gender Identity:</p>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="nonBinary">
+            <label for="nonBinary">Non-Binary</label>
+            <input type="radio" name="gender" id="na">
+            <label for="na">I prefer not to answer</label>
+        </div>
+        <div>
+            <label for="description">A short description about myself:</label>
+            <textarea name="description" id="description" cols="60" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="language">Favorite Language: </label>
+            <select name="language" id="language">
+                <option>C#</option>
+                <option>JavaScript</option>
+                <option>Python</option>
+                <option>Java</option>
+            </select>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
