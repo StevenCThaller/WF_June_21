@@ -1,0 +1,36 @@
+.container {
+    background-color: silver;
+    width: auto;
+
+    padding: 15px;
+    /* Using flex */
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+}
+
+/* Using flex */
+.col {
+    height: 400px;
+    /* width: 300px; */
+    background-color: blue;
+
+    flex: 1;
+}
+
+/* Using inline-block */
+/* .col {
+    height: 400px;
+    width: 200px;
+    background-color: blue;
+
+    display: inline-block;
+    margin-right: 70px;
+    vertical-align: top;
+}
+
+.col:last-child {
+    margin-right:0px;
+} */
+

@@ -13,3 +13,11 @@ i.e. the code from the lecture on HTML inputs will be in the HTML folder, labele
 - Afternoon
     - Code: [Lecture Code](https://github.com/StevenCThaller/WF_June_21/blob/main/HTML/HTML_Intro/index.html)
     - Recording: [YouTube](https://www.youtube.com/watch?v=KxMlDPOO7_I&ab_channel=Dojo_Instructor_Cody)
+
+### W1D3
+- Algos
+    - Code: [Algo Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_1/Day_1.js)
+    - Recording: Processing
+- Morning
+    - Code: [Lecture Code](https://github.com/StevenCThaller/WF_June_21/blob/main/CSS/Flex)
+    - Recording: Processing
