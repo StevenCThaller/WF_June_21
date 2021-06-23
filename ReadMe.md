@@ -26,3 +26,6 @@ i.e. the code from the lecture on HTML inputs will be in the HTML folder, labele
 - Morning
     - Code: [Lecture Code](https://github.com/StevenCThaller/WF_June_21/blob/main/CSS/Flex)
     - Recording: [YouTube](https://www.youtube.com/watch?v=J81SpnWbjgs&ab_channel=Dojo_Instructor_Cody)
+- Afternoon
+    - Code: [Demo Code](https://github.com/StevenCThaller/WF_June_21/blob/main/CSS/ModernArt)
+    - Recording: Processing

@@ -1,0 +1,67 @@
+#canvas {
+    width: 970px;
+    height: 970px;
+    background-color: black;
+}
+
+.flex-15 {
+    display: flex;
+    gap: 15px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+#columnOne {
+    width: 425px;
+}
+
+#columnTwo {
+    width: 530px;
+}
+
+.rowOne {
+    height: 425px;
+}
+
+.rowTwo {
+    height: 200px;
+}
+
+.rowThree {
+    height: 315px;
+}
+
+#thinVertical {
+    width: 100px;
+}
+
+#blueBox {
+    width: 260px;
+    height: 260px;
+}
+
+#whiteSliver {
+    height: 40px;
+}
+
+.red {
+    background-color: #cf4f1c;
+}
+
+.white {
+    background-color: #eaeaea;
+}
+
+.yellow {
+    background-color: #fdea8f;
+}
+
+.blue {
+    background-color: #22569e;
+}
+
+.column div {
+    width: 100%;
+}
