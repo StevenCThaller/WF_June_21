@@ -1,0 +1,26 @@
+* {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.static {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: static;
+    left: 15px;
+    top: 75px;
+}
+
+/* Because this is AFTER the css reset,
+it will replace the 0px padding and margin that was
+given to ALL elements */
+button {
+    margin: 4px;
+    padding: 5px;
+    background-color: goldenrod;
+    border: 0px;
+    border-radius: 5px;
+}

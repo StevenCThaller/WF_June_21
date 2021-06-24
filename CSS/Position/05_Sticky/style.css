@@ -1,0 +1,15 @@
+* {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+
+.sticky {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+}
