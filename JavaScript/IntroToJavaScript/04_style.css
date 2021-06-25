@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech', sans-serif;
+    box-sizing: border-box;
+    color: #3e3e3e;
+}
+
+
+nav {
+    background-color: rgba(37, 37, 37, 0.705);
+    display: flex;
+    align-items: center;
+    padding: 8px 27%;
+    position: absolute;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 35px 27%;
+}
+
+h3, h4 {
+    color: #1572a4;
+}
+
+.yellowHeader {
+    color: goldenrod;
+}
+
+h3 {
+    
+    font-size: 26pt;
+}
+
+h5 {
+    font-size: 14pt;
+}
+
+p {
+    line-height: 1.5;
+}
+
+#navLogo {
+    width: 150px;
+    height: auto;
+}
+
+.navLinkList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.searchSign {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 35px;
+}
+
+.navLink {
+    color: white;
+    
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+
+.hero {
+    width: 100vw;
+    height: 750px;
+    background-image: url('./images/hero.jpg');
+    background-size: cover;
+    padding-left: 27%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:column;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: white;
+    font-size: 32pt;
+}
+
+.hero p {
+    color: white;
+}
+
+
+button {
+    background-color: #1572a4;
+    color: white;
+    border-radius: 0px;
+    border: 0;
+    min-width: 200px;
+    padding: 5px 0;
+    font-size: 16pt;
+}
+
+.card img {
+    width: 350px;
+    height: auto;
+}
+
+.card h4 {
+    font-size: 18pt;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.center {
+    align-items: center;
+}
