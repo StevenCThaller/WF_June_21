@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Choose You</title>
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="row">
+        <button onclick="generateDeck()">Reset Deck</button>
+        <button onclick="shuffleDeck()">Shuffle Deck</button>
+    </div>
+    <div class="row">
+        <div id="deckOfCards">
+            <h3>Your Deck</h3>
+            <img class="card" src="./images/card_back.jpg" alt="Back of Pokemon Card">
+            <button onclick="drawHand()">Draw Hand</button>
+        </div>
+        <div id="playedCards"></div>
+    </div>
+    <div id="hand" class="row"></div>
+</body>
+</html>
