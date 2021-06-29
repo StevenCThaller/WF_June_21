@@ -3,7 +3,77 @@
     padding: 0;
 }
 
+.row {
+    display: flex;
+}
+
+.just-center {
+    justify-content: center;
+}
+.just-between {
+    justify-content: space-between;
+}
+.just-even {
+    justify-content: space-evenly;
+}
+.just-around {
+    justify-content: space-around;
+}
+
+.al-center {
+    align-items: center;
+}
+.al-base {
+    align-items: baseline;
+}
+.al-start {
+    align-items: flex-start;
+}
+.al-end {
+    align-items: flex-end;
+}
+.al-stretch {
+    align-items: stretch;
+}
+.al-inherit {
+    align-items: inherit;
+}
+.al-initial {
+    align-items: initial;
+}
+.al-unset {
+    align-items: unset;
+}
+
+
+.gap-1 {
+    gap: 1%;
+}
+.gap-2 {
+    gap: 2%;
+}
+.gap-3 {
+    gap: 3%;
+}
+.gap-4 {
+    gap: 4%;
+}
+
+.gap-5 {
+    gap: 5%;
+}
+
 .card {
     width: 300px;
     height: 419px;
+}
+
+button {
+    padding: 0.3% 2%;
+    background: linear-gradient(red 50%, white 0%);
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: blue;
+    text-shadow: 2px 2px 2px black;
 }
