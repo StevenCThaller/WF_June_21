@@ -20,7 +20,7 @@ Fri | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_1
  Day | Algos | Morning | Afternoon
 --- | --- | --- | ---
 Mon | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_2/Day_1) &#124; [Recording](https://youtu.be/jqM9lNqd8FY) | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/JavaScript/ObjectsAndDOM) &#124; [Recording](https://youtu.be/iygUJR8vnkE) | [Pokemon Cards Pt 1](https://github.com/StevenCThaller/WF_June_21/blob/main/JavaScript/IChooseYou) &#124; [Recording](https://youtu.be/CO6tFf8-8s4)
-Tue | | | 
+Tue | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_2/Day_2) &#124; [Recording](https://youtu.be/fVEmjX4ozew) | [Recording](https://youtu.be/A1BkqSeym9o) | 
 Wed | **Exam - No Algos** | **Exam** | **Exam** 
 Thu | | | 
 Fri | | | 
