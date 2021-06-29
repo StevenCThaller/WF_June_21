@@ -67,13 +67,3 @@
     width: 300px;
     height: 419px;
 }
-
-button {
-    padding: 0.3% 2%;
-    background: linear-gradient(red 50%, white 0%);
-    border-radius: 50%;
-    font-weight: bolder;
-    font-size: 1.5em;
-    color: blue;
-    text-shadow: 2px 2px 2px black;
-}

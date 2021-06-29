@@ -152,6 +152,7 @@ var pokemon = [
 ];
 var deckOfPokemonCards = [];
 var cardHand = [];
+var playedCards = [];
 generateDeck();
 
 function pokemonCardFactory(pokemonName, pokeDexNumber) {
@@ -195,35 +196,86 @@ function drawHand() {
     while(cardsPushed < 5 && deckOfPokemonCards.length > 0) {
         var cardToAdd = deckOfPokemonCards.pop()
         cardHand.push(cardToAdd);
-
-        var newCardElement = document.createElement("img");
+        var newCardElement = document.createElement("div");
+        var newCardImg = document.createElement("img");
         
-        newCardElement.src = './images/card_back.jpg';
-        newCardElement.alt = "Card Back";
-        // newCardElement.handIndex = cardHand.length - 1;
-        newCardElement.pokemonName = cardToAdd.name;
-        newCardElement.classList.add("card");
+        newCardImg.src = './images/card_back.jpg';
+        newCardImg.alt = "Card Back";
+        // newCardImg.handIndex = cardHand.length - 1;
+        newCardImg.pokemonName = cardToAdd.name;
+        newCardImg.classList.add("card");
         
-        newCardElement.addEventListener("click", flipCard)
-        
+        newCardImg.addEventListener("click", flipCard)
+        newCardElement.appendChild(newCardImg);
         handDiv.appendChild(newCardElement);
         cardsPushed++;
     }
-
-    console.log(cardHand);
 }
 
 function flipCard(e){
-    var cardElements = Array.prototype.slice.call(document.getElementById('hand').children);
-    var cardIndex = cardElements.indexOf(e.target);
+    var cardElements = getHandCardElements();
+    var cardIndex = cardElements.findIndex(caEl => caEl.contains(e.target));
     var card = cardHand[cardIndex];
-    var cardElement = e.target;
+    var cardImg = e.target;
     card.flipped = !card.flipped;
     if(card.flipped) {
-        cardElement.src = card.imagePath;
-        cardElement.alt = card.name;
+        cardImg.src = card.imagePath;
+        cardImg.alt = card.name;
+
+        var playCardButton = document.createElement("button");
+        playCardButton.innerText = "Play " + card.name;
+        playCardButton.addEventListener("click", playCard);
+        cardElements[cardIndex].appendChild(playCardButton);
     } else {
-        cardElement.src = "./images/card_back.jpg";
-        cardElement.alt = "Card Back";
+        cardImg.src = "./images/card_back.jpg";
+        cardImg.alt = "Card Back";
+
+        cardElements[cardIndex].removeChild(cardElements[cardIndex].lastChild);
     }
+}
+
+function playCard(e) {
+    // The card we want to play is the event target
+    var aCard = e.target.parentElement;
+
+    // we need to figure out which card in our hand this is (by its index)
+    var cardIndex = 0;
+
+    // increment our cardIndex until we're at an element with no previous sibling
+    while( aCard.previousSibling != null && aCard != null) {
+        aCard = aCard.previousSibling;
+        cardIndex++;
+    }
+    // we are going to want to target the element that contains all of our card elements
+    var handElement = document.getElementById("hand");
+    // and also the array of individual html elements for the next step
+    var handCardElements = getHandCardElements();
+
+    // the card we want to play is the one returned by running removeChild() on the
+    // handElement, with the card at cardIndex from our array of elements being the argument
+    var cardPlayed = handElement.removeChild(handCardElements[cardIndex])
+
+    console.log(cardPlayed);
+
+    // Now, we want to add that card to our played cards (in html), so let's target that element
+    var playedCardsElement = document.getElementById("playedCards");
+
+    // Now, let's go ahead and remove the card from our cardHand array in this script file,
+    // and add it to the playedCards array also in this script file
+    playedCards.push(cardHand.splice(cardIndex, 1)[0]);
+
+    // then, remove the button from the cardPlayed HTML element by targeting its last child
+    cardPlayed.removeChild(cardPlayed.lastChild);
+    // then, target the image inside of that cardPlayed element (i.e. its first child), and remove the flipCard
+    // event listener that's attached to it
+    cardPlayed.firstChild.removeEventListener("click", flipCard);
+    // Then finally, add the card elmenet to our playedCards html element
+    playedCardsElement.appendChild(cardPlayed);
+
+    console.log(cardHand);
+    console.log(playedCards);
+}
+
+function getHandCardElements(){
+    return Array.prototype.slice.call(document.getElementById('hand').children);
 }
