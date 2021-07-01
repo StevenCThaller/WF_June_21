@@ -1,0 +1,57 @@
+* { 
+    color: white;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+}
+
+input {
+    color: black;
+}
+
+#container {
+    box-sizing: border-box;
+    padding: 10px 20%;
+}
+
+#avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.col-1 {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+.col-4 {
+    flex: 4;
+}
+.col-5 {
+    flex: 5;
+}
+.col-6 {
+    flex: 6;
+}
+.col-7 {
+    flex: 7;
+}
