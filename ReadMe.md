@@ -22,5 +22,5 @@ Fri | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_1
 Mon | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_2/Day_1) &#124; [Recording](https://youtu.be/jqM9lNqd8FY) | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/JavaScript/ObjectsAndDOM) &#124; [Recording](https://youtu.be/iygUJR8vnkE) | [Pokemon Cards - Pt 1](https://github.com/StevenCThaller/WF_June_21/tree/bdd059e6ef3c57c127aad36d49d49c5334569138/JavaScript/IChooseYou) &#124; [Recording](https://youtu.be/CO6tFf8-8s4)
 Tue | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_2/Day_2) &#124; [Recording](https://youtu.be/fVEmjX4ozew) | [Recording](https://youtu.be/A1BkqSeym9o) | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/JavaScript/IChooseYou) &#124; [Recording](https://youtu.be/7s2weyHtluY)
 Wed | **Exam - No Algos** | **Exam** | **Exam** 
-Thu | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_2/Day_4) &#124; [Recording](https://youtu.be/06q9L8PNYZM) | N/A | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/JavaScript/APIsAndAJAX) &#124; Processing
-Fri | | | 
+Thu | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_2/Day_4) &#124; [Recording](https://youtu.be/06q9L8PNYZM) | N/A | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/JavaScript/APIsAndAJAX) &#124; [Recording](https://youtu.be/mw1UElfN9v0)
+Fri | [Code](https://github.com/StevenCThaller/WF_June_21/blob/main/Algos/Week_2/Day_5) &#124; Processing | | 
