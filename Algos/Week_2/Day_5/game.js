@@ -110,7 +110,6 @@ function howMany(i, j, element) {
 
     // we already have i and j, so let's just create new iterating variables: k and l
 
-
     // k is in relation to i
     for(var k = i-1; k <= i+1; k++) {
         // now, if either k or l are outside the bounds of their respective arrays, 
